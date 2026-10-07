@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bean Bliss Café | Brewed with Passion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">☕</span><span>Bean Bliss <small>Café</small></span></a>
+  <nav class="main-nav" id="mainNav">
+    <a class="active" href="index.html">Home</a><a href="menu.html">Menu</a><a href="about.html">About</a><a href="orders.html">Orders</a><a href="contact.html">Contact</a>
+  </nav>
+  <div class="header-actions">
+    <button class="icon-btn" id="themeBtn" title="Toggle theme">☾</button>
+    <a class="icon-btn" href="menu.html#favorites" title="Favorites">♡</a>
+    <a class="cart-btn" href="cart.html">🛒 <span>Cart</span><b class="cart-count">0</b></a>
+    <a class="profile-link" id="profileLink" href="login.html">Login</a>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">Freshly brewed • Freshly baked</span>
+      <h1>Your perfect coffee moment starts here.</h1>
+      <p>Handcrafted coffee, delicious bites and warm moments — made fresh for your everyday bliss.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="menu.html">Order Now →</a><a class="btn btn-outline" href="#featured">Explore Menu</a></div>
+      <div class="hero-stats"><div><strong>4.9★</strong><span>Customer rating</span></div><div><strong>25+</strong><span>Menu favourites</span></div><div><strong>20 min</strong><span>Avg. preparation</span></div></div>
+    </div>
+    <div class="hero-art">
+      <div class="hero-circle"></div><div class="coffee-cup"><div class="cup-lid"></div><div class="cup-body">BB</div><div class="cup-handle"></div></div>
+      <div class="floating-card card-one">☕ <span>Freshly brewed</span></div><div class="floating-card card-two">⭐ <span>4.9 rating</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="featured">
+    <div class="section-head"><div><span class="eyebrow">Our favourites</span><h2>Made for your mood</h2></div><a class="text-link" href="menu.html">View full menu →</a></div>
+    <div class="product-grid" id="featuredGrid"></div>
+  </section>
+
+  <section class="offer-banner">
+    <div><span class="eyebrow">Today only</span><h2>Make it a little sweeter.</h2><p>Use <strong>BEAN10</strong> at checkout and get 10% off your order.</p></div>
+    <a class="btn btn-light" href="menu.html">Grab a treat →</a>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><span class="eyebrow">What people say</span><h2>Blissful words</h2></div></div>
+    <div class="review-grid">
+      <article class="review-card"><div class="stars">★★★★★</div><p>“The latte was smooth, the brownie was warm, and the ordering experience was super easy.”</p><strong>— Priya M.</strong></article>
+      <article class="review-card"><div class="stars">★★★★★</div><p>“Bean Bliss has become my go-to place for a quick coffee and a peaceful evening.”</p><strong>— Arjun K.</strong></article>
+      <article class="review-card"><div class="stars">★★★★★</div><p>“Loved the menu and the simple ordering flow. The caramel macchiato is a must try!”</p><strong>— Nithya R.</strong></article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><div><a class="brand" href="index.html"><span class="brand-mark">☕</span><span>Bean Bliss <small>Café</small></span></a><p>Brewed with Passion, Served with Bliss.</p></div><div><h4>Quick Links</h4><a href="menu.html">Menu</a><a href="orders.html">My Orders</a><a href="contact.html">Contact</a></div><div><h4>Hours</h4><p>Mon–Sun<br>8:00 AM – 10:00 PM</p></div><div><h4>Contact</h4><p>+91 98765 43210<br>hello@beanblisscafe.com</p></div><div class="copyright">© 2026 Bean Bliss Café. All Rights Reserved.</div></footer>
+<div id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
